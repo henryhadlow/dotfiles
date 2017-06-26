@@ -110,7 +110,7 @@ PS1="\[\033]0;\W\007\]"; # working directory base name
 PS1+="\[${bold}\]\n"; # newline
 # Only show username/host if not default_username and default_hostname
 default_username='henryhadlow';
-default_hostname='Yashbook-Pro-2000';
+default_hostname='Henry’s Mac';
 if [ $USER != "$default_username" ] && [ $HOSTNAME != "$default_hostname" ]; then
 	PS1+="\[${userStyle}\]$USER ";
 	PS1+="${white}at ";
