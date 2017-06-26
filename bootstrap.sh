@@ -8,6 +8,7 @@ function doIt() {
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
 		--exclude ".vim/" \
+		--exclude ".functions" \
 		--exclude ".gvimrc" \
 		--exclude ".macos" \
 		--exclude ".vimrc" \
