@@ -9,8 +9,12 @@ function doIt() {
 		--exclude ".DS_Store" \
 		--exclude ".vim/" \
 		--exclude ".functions" \
+		--exclude ".gdbinit" \
 		--exclude ".gvimrc" \
+		--exclude ".hgignore" \
 		--exclude ".macos" \
+		--exclude ".screenrc" \
+		--exclude ".tmux.conf" \
 		--exclude ".vimrc" \
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
