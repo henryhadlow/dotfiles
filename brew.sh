@@ -101,5 +101,19 @@ brew upgrade
 # brew install webkit2png
 # brew install zopfli
 
+# Install some useful extensions to macOS Quick Look
+# Preview source code files with syntax highlighting
+brew cask install qlcolorcode
+# Preview plain text files of unknown type
+brew cask install qlstephen
+# Preview Markdown files
+brew cask install qlmarkdown
+# Preview JSON files
+brew cask install quicklook-json
+# Preview CSV files
+brew cask install quicklook-csv
+# Preview WebP files
+brew cask install webpquicklook
+
 # Remove outdated versions from the cellar.
 brew cleanup
