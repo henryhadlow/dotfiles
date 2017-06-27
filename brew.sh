@@ -101,6 +101,31 @@ brew upgrade
 # brew install webkit2png
 # brew install zopfli
 
+# Install rbenv to manage ruby versions
+brew install rbenv
+
+# Install some apps
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+brew cask install 1password
+brew cask install alfred
+brew cask install appcleaner
+brew cask install bartender
+brew cask install caffeine
+brew cask install colorsnapper
+brew cask install dropbox
+brew cask install github
+# Chrome not included because it doesn’t work with the 1Password plugin
+# brew cask install google-chrome
+brew cask install google-drive
+brew cask install keka
+brew cask install sketch
+brew cask install skype
+brew cask install spotify
+brew cask install spotify-notifications
+brew cask install sublime-text
+brew cask install transmission
+brew cask install vlc
+
 # Install some useful extensions to macOS Quick Look
 # Preview source code files with syntax highlighting
 brew cask install qlcolorcode
