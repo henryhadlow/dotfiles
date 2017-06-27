@@ -83,7 +83,7 @@ brew upgrade
 # brew install ack
 # brew install dark-mode
 #brew install exiv2
-# brew install git
+brew install git
 # brew install git-lfs
 # brew install imagemagick --with-webp
 # brew install lua
