@@ -162,3 +162,18 @@ alias reload="exec $SHELL -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# Print each PATH entry on a separate line
+alias path='echo -e ${PATH//:/\\n}'
+
+# Enable `rbenv` for managing ruby versions
+alias rubydev='eval "$(rbenv init -)"'
+
+# Enable `pyenv` for managing python versions
+alias pythondev='eval "$(pyenv init -)"; eval "$(pyenv virtualenv-init -)"'
+
+# Enable `nvm` for managing node versions
+alias nodedev='export NVM_DIR=~/.nvm; source $(brew --prefix nvm)/nvm.sh'
+
+# Enable `rbenv`, `pyenv` and `nvm` for developing in ruby, python and node
+alias devenv='rubydev; pythondev; nodedev'
