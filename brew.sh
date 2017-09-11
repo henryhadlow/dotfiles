@@ -117,6 +117,7 @@ brew cask install github
 # Chrome not included because it doesn’t work with the 1Password plugin
 # brew cask install google-chrome
 brew cask install google-drive
+brew cask install imageoptim
 brew cask install keka
 brew cask install sketch
 brew cask install skype
