@@ -7,7 +7,15 @@ git pull origin master;
 function doIt() {
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
-		--exclude ".osx" \
+		--exclude ".vim/" \
+		--exclude ".functions" \
+		--exclude ".gdbinit" \
+		--exclude ".gvimrc" \
+		--exclude ".hgignore" \
+		--exclude ".macos" \
+		--exclude ".screenrc" \
+		--exclude ".tmux.conf" \
+		--exclude ".vimrc" \
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
